@@ -7,8 +7,6 @@
   "deploy": {
     "runtime": "V2",
     "numReplicas": 1,
-    // THE INCORRECT "startCommand" LINE HAS BEEN REMOVED.
-    // Railway will now use the CMD in your Dockerfile (uvicorn main:app...).
     "sleepApplication": false,
     "useLegacyStacker": false,
     "multiRegionConfig": {
